@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import Marlinspike from 'marlinspike'
+'use strict';
+
+var Marlinspike = reqiure('marlinspike');
 
 class Auth extends Marlinspike {
-
   constructor (sails) {
     super(sails, module)
   }
@@ -12,4 +12,4 @@ class Auth extends Marlinspike {
   }
 }
 
-export default Marlinspike.createSailsHook(Auth)
+module.exports = Marlinspike.createSailsHook(Auth);

@@ -1,6 +1,6 @@
 'use strict';
 
-var Marlinspike = reqiure('marlinspike');
+var Marlinspike = require('marlinspike');
 
 class Auth extends Marlinspike {
   constructor (sails) {

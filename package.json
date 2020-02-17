@@ -1,6 +1,6 @@
 {
   "name": "sails-auth",
-  "version": "2.1.3+skyline.1",
+  "version": "2.1.3-skyline.1",
   "description": "Passport-based User Authentication system for sails.js applications.",
   "main": "api/hooks/auth/index.js",
   "scripts": {
